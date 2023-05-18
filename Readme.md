@@ -18,7 +18,7 @@ Also, there is the Demo Application with Audio SDK integration, so you can just 
 
 ## Demo Application
 
-Run the demo app right now on your machine. Download the demo app from the [releases](/releases) page. Test it on predefined audio records, WAV files, or your mic.
+Run the demo app right now on your machine. Download the demo app from the [releases](https://github.com/EffectsSDK/audio-desktops/releases) page. Test it on predefined audio records, WAV files, or your mic.
 
 A Sample SDK integration application is also provided, see `examples` folder in the SDK.
 
@@ -48,7 +48,7 @@ Push an audio buffer to the filter:
 
 ``` cpp
 auto buffer = factory->createAudioBuffer(
-    samplesBytes,
+    samplesData,
     samples * sizeof(float), // byte count
     sampleRate,
     numChannels,
