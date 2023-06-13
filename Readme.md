@@ -10,7 +10,7 @@ Also, there is the Demo Application with Audio SDK integration, so you can just 
 ## Technical Details
 
 - SDK is available for Windows 10+ x64/x86 platforms
-- macOS support is upcoming
+- macOS is supported for x86_64 (minimal target 10.15+) and for arm64 (11.0+)
 
 ## Features
 
